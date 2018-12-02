@@ -2,19 +2,12 @@ h1 {
   color:red;
   text-align: center;
   font-family: 'Vidaloka', serif;
-  font-size: 75px;
 }
 
 body {
-  background-image: url("../images/cupcakecrop.jpg");
-  background-attachment: fixed;
-  background-position: left;
-  }
-
-body {
   margin:0;
-  padding:0;
-  font-family:'Arial'
+  padding: 0;
+  font-family:"Arial"
 }
 .nav {
   background-color: #FFB6C1;
