@@ -23,4 +23,6 @@ body {
   text-decoration: none;
   color: #000000;
 }
-.nav > li > hov
+.nav > li > a:hover {
+  color: #ffffff;
+}
