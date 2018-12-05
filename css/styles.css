@@ -1,0 +1,191 @@
+/* STRUCTURE */
+	body {
+	  margin:0;
+	  padding:0;
+
+	  font-family: 'Vidaloka', serif;
+	  font-color: #7D7D7D;
+	}
+
+	h1, h2, h3, h4, h5, h6, p {
+    color: #000000;
+	}
+
+  h1 {
+    font-size: 75px;
+		color:#FF69B4;
+		text-align: center;
+  }
+
+  p {
+	  font-size: 23px;
+		text-align: center;
+	}
+
+
+
+
+/* HOVER */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 87%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+.hoverContainer {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display:inline-block;
+  width: 100%;
+  height: auto;
+
+}
+
+/* NAVIGATION */
+	.nav {
+	  background-color: #89CFF0;
+	  color: #000000;
+	  font-size: 30px;
+	  list-style: none;
+	  text-align: center;
+	  padding: 20px 0px 20px 0px;
+	}
+		.nav > li {
+		  display: inline-block;
+		  padding-right: 70px;
+		}
+			.nav > li > a {
+			  text-decoration: none;
+			  color: #000000;
+			}
+				.nav > li > a:hover {
+				  color: #ffffff;
+				}
+
+
+	body.homepage,
+	body.about,
+	body.contact,
+	body.doughnuts,
+	body.sweetRecipes,
+	body.cupcake,
+	fudgyBrownies {
+	  background-repeat:no-repeat;
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-position: left;
+	}
+
+/* HOMEPAGE */
+	body.homepage {
+	  background-image: url("../images/cupcakecrop.jpg");
+	}
+
+
+/* ABOUT */
+	body.about {
+	  background-image: url("../images/cupcakecrop.jpg");
+
+	}
+
+
+/* CONTACT */
+	body.contact {
+	  background-image: url("../images/cupcakecrop.jpg");
+	}
+
+
+	/* FORM */
+	input[type=text], select, textarea {
+	    width: 100%; /* Full width */
+	    padding: 12px; /* Some padding */
+	    border: 1px solid #ccc; /* Gray border */
+	    border-radius: 4px; /* Rounded borders */
+	    box-sizing: border-box; /* Make sure that padding and width stays in place */
+	    margin-top: 6px; /* Add a top margin */
+	    margin-bottom: 16px; /* Bottom margin */
+	    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+
+	input[type=submit] {
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 12px 20px;
+	    border: ;
+	    border-radius: 4px;
+	    cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+	    background-color: #45a049;
+	}
+
+	.containerContact {
+	    border-radius: 5px;
+	    background-color: #f2f2f2;
+	    padding: 20px;
+	}
+
+
+/* DOUGHNUTS */
+	body.doughnuts {
+	  background-image: url("../images/doughnuts.jpg");
+	}
+
+
+/* SWEET RECIPES */
+	body.sweetRecipes {
+	  background-image: url("../images/cupcakecrop.jpg");
+	}
+
+		.horizontalList > li {
+		  display: inline-block;
+		}
+			.horizontalList > li > a {
+			  text-decoration: none;
+			}
+
+
+/* CUPCAKE */
+	body.cupcake {
+	  background-image: url("../images/rosecupcakes.jpg");
+	}
+	
+
+/* FUDGY BROWNIES */
+	body.fudgyBrownies {
+	  background-image: url("../images/brownies3.jpg");
+	}
+	body.fudgyBrownies h2,
+	body.fudgyBrownies h3,
+	body.fudgyBrownies h4,
+	body.fudgyBrownies h5,
+	body.fudgyBrownies h6,
+	body.fudgyBrownies p,
+	body.fudgyBrownies li {
+		color: pink;
+	}
+
+/* CAROUSEL*/
