@@ -40,19 +40,20 @@
   padding: 20px;
   text-align: center;
 }
-.container:hover .overlay {
+.hoverContainer:hover .overlay {
   opacity: 1;
 }
 
 img {
   width: 300px;
-  height: 200px;
+  height: auto;
 }
 
 .hoverContainer {
   position: relative;
   width: 100%;
   max-width: 300px;
+	height: auto;
 }
 
 /* Make the image to responsive */
@@ -102,6 +103,13 @@ img {
 	body.homepage {
 	  background-image: url("../images/cupcakecrop.jpg");
 	}
+
+		.horizontalList > li {
+		  display: inline-block;
+		}
+			.horizontalList > li > a {
+			  text-decoration: none;
+			}
 
 
 /* ABOUT */
@@ -155,24 +163,11 @@ img {
 	}
 
 
-/* SWEET RECIPES */
-	body.sweetRecipes {
-	  background-image: url("../images/cupcakecrop.jpg");
-	}
-
-		.horizontalList > li {
-		  display: inline-block;
-		}
-			.horizontalList > li > a {
-			  text-decoration: none;
-			}
-
-
 /* CUPCAKE */
 	body.cupcake {
 	  background-image: url("../images/rosecupcakes.jpg");
 	}
-	
+
 
 /* FUDGY BROWNIES */
 	body.fudgyBrownies {
